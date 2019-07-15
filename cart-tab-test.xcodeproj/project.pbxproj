@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		51457BD222DD068300C242ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BD122DD068300C242ED /* AppDelegate.swift */; };
-		51457BD422DD068300C242ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BD322DD068300C242ED /* ViewController.swift */; };
+		51457BD422DD068300C242ED /* MyGreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BD322DD068300C242ED /* MyGreenView.swift */; };
 		51457BD722DD068300C242ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51457BD522DD068300C242ED /* Main.storyboard */; };
 		51457BD922DD068500C242ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51457BD822DD068500C242ED /* Assets.xcassets */; };
 		51457BDC22DD068500C242ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51457BDA22DD068500C242ED /* LaunchScreen.storyboard */; };
+		51457BE422DD0BAB00C242ED /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BE322DD0BAB00C242ED /* MyTabBarController.swift */; };
+		51457BE622DD0D5F00C242ED /* GreenVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BE522DD0D5F00C242ED /* GreenVCViewController.swift */; };
+		51457BE822DD142600C242ED /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BE722DD142600C242ED /* WhiteViewController.swift */; };
+		51457BEA22DD160C00C242ED /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51457BE922DD160C00C242ED /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51457BCE22DD068300C242ED /* cart-tab-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cart-tab-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51457BD122DD068300C242ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51457BD322DD068300C242ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51457BD322DD068300C242ED /* MyGreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGreenView.swift; sourceTree = "<group>"; };
 		51457BD622DD068300C242ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51457BD822DD068500C242ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51457BDB22DD068500C242ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51457BDD22DD068500C242ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51457BE322DD0BAB00C242ED /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		51457BE522DD0D5F00C242ED /* GreenVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVCViewController.swift; sourceTree = "<group>"; };
+		51457BE722DD142600C242ED /* WhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
+		51457BE922DD160C00C242ED /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				51457BD122DD068300C242ED /* AppDelegate.swift */,
-				51457BD322DD068300C242ED /* ViewController.swift */,
+				51457BD322DD068300C242ED /* MyGreenView.swift */,
+				51457BE922DD160C00C242ED /* RedViewController.swift */,
 				51457BD522DD068300C242ED /* Main.storyboard */,
+				51457BE322DD0BAB00C242ED /* MyTabBarController.swift */,
 				51457BD822DD068500C242ED /* Assets.xcassets */,
 				51457BDA22DD068500C242ED /* LaunchScreen.storyboard */,
 				51457BDD22DD068500C242ED /* Info.plist */,
+				51457BE522DD0D5F00C242ED /* GreenVCViewController.swift */,
+				51457BE722DD142600C242ED /* WhiteViewController.swift */,
 			);
 			path = "cart-tab-test";
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51457BD422DD068300C242ED /* ViewController.swift in Sources */,
+				51457BD422DD068300C242ED /* MyGreenView.swift in Sources */,
 				51457BD222DD068300C242ED /* AppDelegate.swift in Sources */,
+				51457BE422DD0BAB00C242ED /* MyTabBarController.swift in Sources */,
+				51457BE822DD142600C242ED /* WhiteViewController.swift in Sources */,
+				51457BEA22DD160C00C242ED /* RedViewController.swift in Sources */,
+				51457BE622DD0D5F00C242ED /* GreenVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
